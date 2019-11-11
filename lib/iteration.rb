@@ -25,6 +25,7 @@ def find_greater_pair(src)
     newArr.push(src[counter][0] > src[counter][1] ? src[counter][0] : src[counter][1])
     counter += 1 
   end
+  newArr
 end
 
 def total_even_pairs(src)
