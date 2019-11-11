@@ -13,6 +13,7 @@ def join_ingredients(src)
     foods.push( "I love #{food[0]} and #{food[1]} on my pizza")
     counter += 1
   end
+  
 end
 
 def find_greater_pair(src)
